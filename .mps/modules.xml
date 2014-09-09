@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.diagram/jetbrains.mps.editor.diagram.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.diagram/runtime/jetbrains.mps.editor.diagram.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.diagram/sandbox/jetbrains.mps.editor.diagram.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.figures/jetbrains.mps.editor.figures.mpl" folder="" />
+    </projectModules>
+  </component>
+</project>
+
