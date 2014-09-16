@@ -12,10 +12,34 @@ public class BehaviorAspectDescriptor implements jetbrains.mps.smodel.runtime.Be
 
   public BehaviorDescriptor getDescriptor(String fqName) {
     switch (Arrays.binarySearch(stringSwitchCases_846f5o_a0a0b, fqName)) {
+      case 2:
+        return new CellModel_Diagram_BehaviorDescriptor();
+      case 7:
+        return new DiagramElementBLQuery_BehaviorDescriptor();
+      case 4:
+        return new CellModel_DiagramNode_BehaviorDescriptor();
+      case 9:
+        return new ExternalPortSpecification_BehaviorDescriptor();
+      case 10:
+        return new InplacePortSpecification_BehaviorDescriptor();
+      case 3:
+        return new CellModel_DiagramConnector_BehaviorDescriptor();
+      case 6:
+        return new ConnectionEndBLQuery_BehaviorDescriptor();
+      case 5:
+        return new CellModel_DiagramPort_BehaviorDescriptor();
+      case 1:
+        return new BLQueryArgument_BehaviorDescriptor();
+      case 11:
+        return new ThisEditorNodeExpression_BehaviorDescriptor();
+      case 0:
+        return new AttributedFigureReference_BehaviorDescriptor();
+      case 8:
+        return new ExternalFigureReference_BehaviorDescriptor();
       default:
         return BehaviorAspectInterpreted.getInstance().getDescriptor(fqName);
     }
   }
 
-  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{};
+  private static String[] stringSwitchCases_846f5o_a0a0b = new String[]{"jetbrains.mps.editor.diagram.structure.AttributedFigureReference", "jetbrains.mps.editor.diagram.structure.BLQueryArgument", "jetbrains.mps.editor.diagram.structure.CellModel_Diagram", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramConnector", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramNode", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramPort", "jetbrains.mps.editor.diagram.structure.ConnectionEndBLQuery", "jetbrains.mps.editor.diagram.structure.DiagramElementBLQuery", "jetbrains.mps.editor.diagram.structure.ExternalFigureReference", "jetbrains.mps.editor.diagram.structure.ExternalPortSpecification", "jetbrains.mps.editor.diagram.structure.InplacePortSpecification", "jetbrains.mps.editor.diagram.structure.ThisEditorNodeExpression"};
 }

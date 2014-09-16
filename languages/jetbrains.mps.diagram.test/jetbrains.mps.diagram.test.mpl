@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language namespace="jetbrains.mps.diagram.test" uuid="98d02144-2db1-4309-a6de-2a26960449c6">
+  <models>
+    <modelRoot contentPath="${module}" type="default">
+      <sourceRoot location="languageModels" />
+    </modelRoot>
+  </models>
+  <accessoryModels />
+  <generators>
+    <generator generatorUID="jetbrains.mps.diagram.test#2575114363239518461" uuid="eb6d0c4e-10b5-4b80-a85b-7ce0e193a367">
+      <models>
+        <modelRoot contentPath="${module}" type="default">
+          <sourceRoot location="generator/template" />
+        </modelRoot>
+      </models>
+      <external-templates />
+      <usedLanguages>
+        <usedLanguage>98d02144-2db1-4309-a6de-2a26960449c6(jetbrains.mps.diagram.test)</usedLanguage>
+        <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
+        <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
+      </usedLanguages>
+      <usedDevKits>
+        <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
+      </usedDevKits>
+      <mapping-priorities />
+    </generator>
+  </generators>
+  <sourcePath />
+  <dependencies>
+    <dependency reexport="false">9fc6ac35-295d-4fb8-8210-ba026790e4a0(jetbrains.mps.lang.editor.figures.library)</dependency>
+  </dependencies>
+  <usedLanguages>
+    <usedLanguage>cfa59285-b438-478e-9bfe-a2818950e09c(jetbrains.mps.editor.diagram)</usedLanguage>
+  </usedLanguages>
+  <usedDevKits>
+    <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
+  </usedDevKits>
+  <extendedLanguages />
+</language>
+

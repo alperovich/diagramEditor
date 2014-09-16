@@ -3,9 +3,12 @@
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="languageModels" />
+      <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="r:e1e76ced-91af-488c-89bf-10323481b396(jetbrains.mps.editor.diagram.standartFigures)" />
+  </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.editor.diagram#4895737552471781912" uuid="d6ed0791-e718-48bf-921a-f64d84f06179">
       <models>
@@ -26,7 +29,12 @@
     </generator>
   </generators>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">770cde6c-299d-48d8-9fc5-d7599ef45eef(jetbrains.mps.editor.figures)</dependency>
+    <dependency reexport="false">d7722d50-4b93-4c3a-ae06-1903d05f95a7(jetbrains.mps.lang.editor.figures)</dependency>
+  </dependencies>
   <usedDevKits>
+    <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <extendedLanguages>
