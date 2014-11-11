@@ -2,11 +2,11 @@
 <model modelUID="r:070c3bc2-b054-4f91-a8f0-be188318b187(jetbrains.mps.diagram.test.editor)">
   <persistence version="8" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
-  <language namespace="cfa59285-b438-478e-9bfe-a2818950e09c(jetbrains.mps.editor.diagram)" />
+  <language namespace="cfa59285-b438-478e-9bfe-a2818950e09c(jetbrains.mps.editor._diagram)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="8tro" modelUID="r:257a7f19-40a4-4037-a93b-ce1b638af281(jetbrains.mps.lang.editor.figures.library)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="icel" modelUID="r:7dd02475-31ad-4fc0-b619-6c0da6254ff5(jetbrains.mps.editor.diagram.structure)" version="-1" implicit="yes" />
+  <import index="icel" modelUID="r:7dd02475-31ad-4fc0-b619-6c0da6254ff5(jetbrains.mps.editor._diagram.structure)" version="-1" implicit="yes" />
   <import index="gz3t" modelUID="r:3928edae-d13e-4363-a385-b9b734843dc3(jetbrains.mps.diagram.test.structure)" version="-1" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />

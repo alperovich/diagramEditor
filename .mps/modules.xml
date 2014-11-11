@@ -3,9 +3,9 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.diagram.test/jetbrains.mps.diagram.test.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.diagram/jetbrains.mps.editor.diagram.mpl" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.diagram/runtime/jetbrains.mps.editor.diagram.runtime.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.diagram/sandbox/jetbrains.mps.editor.diagram.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor._diagram/jetbrains.mps.editor._diagram.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor._diagram/runtime/jetbrains.mps.editor._diagram.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor._diagram/sandbox/jetbrains.mps.editor._diagram.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/jetbrains.mps.editor.figures/jetbrains.mps.editor.figures.mpl" folder="" />
     </projectModules>
   </component>

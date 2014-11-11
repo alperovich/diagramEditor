@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependencies version="2" modelHash="5f6sq4uggem1fv8ipct5wdf6o0hpsow">
+  <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" hash="5sdbpqxziyuazpb9j1p4zdk6bnvbn49" />
+  <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" hash="-5mgxduek28h3ywdzzsk4capaz4hgjm0" />
+  <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" hash="8k8o4dwxo04nyf4hyew4nrcxypkvbwk" />
+  <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" hash="46jsxl802hw5is64gtjcw36kxhxdzvx" />
+  <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" hash="303xz1b2lyseld0axia86q3lpvucmq6" />
+  <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
+  <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
+  <common hash="-98jn8egodxsz16novsqt803hlayptoo" dependsOnNodes="true">
+    <dep root="1094405431463454433" />
+    <dep root="1094405431463455190" />
+    <dep root="1094405431463663051" />
+    <dep root="1220375669566347117" />
+    <dep root="2575114363239242443" />
+    <dep root="2721249134706026944" />
+    <dep root="285670992213637294" />
+    <dep root="285670992213637367" />
+    <dep root="3229274890673749551" />
+    <dep root="4106405893267914611" />
+    <dep root="4895737552472376082" />
+    <dep root="4895737552472376314" />
+    <dep root="4895737552472376327" />
+    <dep root="5355858557208538577" />
+    <dep root="5355858557208817201" />
+    <dep root="5422656561926747342" />
+    <dep root="5622714882077440698" />
+    <dep root="6306886970791033847" />
+    <dep root="6382742553261733065" />
+    <dep model="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c89590293(jetbrains.mps.lang.structure.generator_new.baseLanguage@generator)" />
+    <dep model="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
+    <dep model="r:00000000-0000-4000-0000-011c895902cd(jetbrains.mps.baseLanguage.generator.java.main@generator)" />
+    <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" />
+    <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" />
+    <file name="StructureAspectDescriptor.java" />
+  </common>
+  <source id="6306886970791033847" name="CellModel_Diagram" hash="26hd1igatg83lu57c3an0imz6mdcy4" />
+  <source id="5355858557208538577" name="DiagramElement" hash="21hv3ornj2b2hile3ov7jp5hrlq4iea" />
+  <source id="5355858557208817201" name="DiagramElementBLQuery" hash="1htbu0xq8vdjtnj3rpm09zrlddo6onp" />
+  <source id="1094405431463454433" name="CellModel_DiagramNode" hash="5w29avokl0w6sz3pq4l23wvppat98wv" />
+  <source id="1094405431463455190" name="AbstractFigureReference" hash="-8uxkid57s27mqgsomht0zx8paj4qmfn" />
+  <source id="4895737552472376082" name="PortSpecification" hash="-e7e0b4v3hl2qa6r4jx8cc3bqb5juio9" />
+  <source id="4895737552472376314" name="ExternalPortSpecification" hash="4jxm01nxius5vwo7jcjxv3roo4epclc" />
+  <source id="4895737552472376327" name="InplacePortSpecification" hash="-4m476m2p8vvmusuv2lwlv016f5bwcai" />
+  <source id="6382742553261733065" name="CellModel_DiagramConnector" hash="2jx3nvmfe8y2whdnkh31bmhxdpdnbp4" />
+  <source id="2721249134706026944" name="ConnectionEnd" hash="-dtd1awkzli5rvwy18ejpnult0hk4gzq" />
+  <source id="1220375669566347117" name="ConnectionEndBLQuery" hash="-7zej6qymaolzogjbs4wi24jtnl27tfb" />
+  <source id="5622714882077440698" name="CellModel_DiagramPort" hash="-cyokv66s5tiq93rerzc5no1ysfug411" />
+  <source id="285670992213637294" name="AbstractArgument" hash="bgua2e3y54339tlrx8h4a5cr3i4toek" />
+  <source id="285670992213637367" name="BLQueryArgument" hash="-9immc0wjbr3su4pa7pclbw8701mr35i" />
+  <source id="2575114363239242443" name="AbstractFigureArgument" hash="4b7007h3ly9hbc7de77df2s6uasb39v" />
+  <source id="3229274890673749551" name="ThisEditorNodeExpression" hash="-icf5x80xsvz2q12vq9c6jjd6hnkfw5" />
+  <source id="4106405893267914611" name="PortDeclaration" hash="-4lynl5f13oqzt7frimeem5ckj9fj9pk" />
+  <source id="5422656561926747342" name="AttributedFigureReference" hash="14ld1mavl1h55u76zglng1s7nt8bqxm" />
+  <source id="1094405431463663051" name="ExternalFigureReference" hash="-d9cduboyj6gip04n385my6xf7gktsc1" />
+</dependencies>
+

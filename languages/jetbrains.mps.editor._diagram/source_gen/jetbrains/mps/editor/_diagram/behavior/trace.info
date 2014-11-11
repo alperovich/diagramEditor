@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <unitInfo fileName="AbstractArgument_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.AbstractArgument_BehaviorDescriptor" />
+  <unitInfo fileName="AbstractFigureArgument_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.AbstractFigureArgument_BehaviorDescriptor" />
+  <unitInfo fileName="AbstractFigureReference_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.AbstractFigureReference_BehaviorDescriptor" />
+  <unitInfo fileName="AttributedFigureReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.AttributedFigureReference_BehaviorDescriptor" />
+  <unitInfo fileName="BLQueryArgument_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.BLQueryArgument_BehaviorDescriptor" />
+  <unitInfo fileName="BehaviorAspectDescriptor.java" startLine="9" startPosition="0" endLine="46" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.BehaviorAspectDescriptor" />
+  <unitInfo fileName="CellModel_DiagramConnector_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.CellModel_DiagramConnector_BehaviorDescriptor" />
+  <unitInfo fileName="CellModel_DiagramNode_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.CellModel_DiagramNode_BehaviorDescriptor" />
+  <unitInfo fileName="CellModel_DiagramPort_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.CellModel_DiagramPort_BehaviorDescriptor" />
+  <unitInfo fileName="CellModel_Diagram_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.CellModel_Diagram_BehaviorDescriptor" />
+  <unitInfo fileName="ConnectionEndBLQuery_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.ConnectionEndBLQuery_BehaviorDescriptor" />
+  <unitInfo fileName="ConnectionEnd_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.ConnectionEnd_BehaviorDescriptor" />
+  <unitInfo fileName="DiagramElementBLQuery_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.DiagramElementBLQuery_BehaviorDescriptor" />
+  <unitInfo fileName="DiagramElement_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.DiagramElement_BehaviorDescriptor" />
+  <unitInfo fileName="ExternalFigureReference_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.ExternalFigureReference_BehaviorDescriptor" />
+  <unitInfo fileName="ExternalPortSpecification_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.ExternalPortSpecification_BehaviorDescriptor" />
+  <unitInfo fileName="InplacePortSpecification_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="15" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.InplacePortSpecification_BehaviorDescriptor" />
+  <unitInfo fileName="PortDeclaration_BehaviorDescriptor.java" startLine="6" startPosition="0" endLine="8" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.PortDeclaration_BehaviorDescriptor" />
+  <unitInfo fileName="PortSpecification_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.PortSpecification_BehaviorDescriptor" />
+  <unitInfo fileName="ThisEditorNodeExpression_BehaviorDescriptor.java" startLine="7" startPosition="0" endLine="16" endPosition="0" unitName="jetbrains.mps.editor._diagram.behavior.ThisEditorNodeExpression_BehaviorDescriptor" />
+</debugInfo>
+
