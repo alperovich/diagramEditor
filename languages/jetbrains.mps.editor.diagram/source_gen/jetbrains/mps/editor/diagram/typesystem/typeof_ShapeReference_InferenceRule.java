@@ -45,7 +45,7 @@ public class typeof_ShapeReference_InferenceRule extends AbstractInferenceRule_R
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.editor.diagram.structure.ShapeReference";
+    return "jetbrains.mps.editor.diagram.structure.AWTShapeReference";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {

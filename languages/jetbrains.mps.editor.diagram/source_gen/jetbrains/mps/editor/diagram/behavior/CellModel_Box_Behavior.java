@@ -4,7 +4,7 @@ package jetbrains.mps.editor.diagram.behavior;
 
 import org.jetbrains.mps.openapi.model.SNode;
 
-public class CellModel_DiagramNode_Behavior {
+public class CellModel_Box_Behavior {
   public static void init(SNode thisNode) {
   }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dependencies version="2" modelHash="-3w8xx8h5q3lrx7ava1vyhryksh09tnm">
+<dependencies version="2" modelHash="q9k5mq5qb35oq5aprjtf8pplrlo55s">
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
   <dep model="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.smodel.runtime.impl(MPS.Core/jetbrains.mps.smodel.runtime.impl@java_stub)" />
@@ -11,14 +11,13 @@
   <dep model="r:b4d7d620-6723-4aa2-856b-118497e84e9e(jetbrains.mps.baseLanguage.generator.java.strings@generator)" hash="b4ewbuz42qcbg1awca5bacgi0vopxqt" />
   <dep model="r:f04c1476-2f91-4f59-be13-c8e009abebee(jetbrains.mps.baseLanguageInternal.generator.template.main@generator)" hash="a8elw7fctzg6sg8fe36u9gzu42axhdb" />
   <dep model="r:fc76aa36-3cff-41c7-b94b-eee0e8341932(jetbrains.mps.internal.collections.runtime)" hash="-8chtguhcvj45cjy0bx3xiqekte2lox7" />
-  <common hash="-cdhiz2qgm73tshnzwyn5856uz5gkwk0" dependsOnNodes="true">
+  <common hash="da5xh6d3648lgrvjoi4ks81c4d8ok51" dependsOnNodes="true">
     <dep root="1110129820007229393" />
     <dep root="1933649609528302759" />
     <dep root="1981294357059557456" />
     <dep root="1981294357059563448" />
     <dep root="1981294357061019414" />
     <dep root="1981294357061021217" />
-    <dep root="2435690874923076817" />
     <dep root="2630243574828768918" />
     <dep root="301931493264781535" />
     <dep root="3155126767688724548" />
@@ -34,9 +33,7 @@
     <dep root="500099795019625460" />
     <dep root="5468226901223973329" />
     <dep root="5490129062795541784" />
-    <dep root="5490129062797971531" />
     <dep root="5490129062797973100" />
-    <dep root="5490129062797973577" />
     <dep root="5712445629353393305" />
     <dep root="5712445629353395770" />
     <dep root="6237710625713195816" />
@@ -46,6 +43,17 @@
     <dep root="6237710625714192596" />
     <dep root="6237710625716701263" />
     <dep root="6298417450308841119" />
+    <dep root="6298417450309634722" />
+    <dep root="6298417450309983185" />
+    <dep root="6298417450310312137" />
+    <dep root="6298417450310312154" />
+    <dep root="6298417450310843488" />
+    <dep root="6298417450310843528" />
+    <dep root="6298417450310843568" />
+    <dep root="6298417450310843608" />
+    <dep root="6298417450311038307" />
+    <dep root="6298417450311459406" />
+    <dep root="6298417450311459732" />
     <dep root="6554619382999975769" />
     <dep root="6554619383001456685" />
     <dep root="6554619383001456740" />
@@ -98,18 +106,18 @@
   <source id="3155126767689025629" name="Content_Childs" hash="-92cvwcs573ynqa69xp9djdkgnnf9fw0" />
   <source id="3155126767690989914" name="Content_GenericBoxQuery" hash="-50u50lq3lovdn3tqn1lk8anib75qngf" />
   <source id="7890587897031711745" name="Content_GenericEdgeQuery" hash="9iazhzcko9yfh2ld4ayqcm5hhz8z8u0" />
-  <source id="7890587897031726207" name="Content_GenericElementQuery" hash="5t842qydx326xl7j5dn39ycbuhdn72u" />
+  <source id="7890587897031726207" name="Content_GenericElementQuery" hash="-55ggehftdzt65bbg9kbmibsluz27bm5" />
   <source id="6554619383003875357" name="Content_GenericElementQuery_InlineEditorComponent" hash="-b4xpzq261eehp8ojj5ck7mkjo3ao3bc" />
   <source id="6554619382999975769" name="Content_GenericElementQuery_OuterNode" hash="-1clp8eqqwj64djx5qy4y5ybeiot8jyo" />
   <source id="8963411245958754161" name="Content_GenericElementQuery_ParameterObject" hash="3tj05nfiw9x5uw0rozjzls1yb0jh53b" />
   <source id="8963411245957652387" name="Content_GenericElementQuery_Query" hash="-7eqsyh7sq4ybx8d0mcjqqfnyyibutst" />
-  <source id="3462102746004176270" name="DeleteHandler" hash="dnoz8rw4j4tgk9yavnqt1kd3zv3rec0" />
+  <source id="3462102746004176270" name="BLDeleteHandler" hash="-cz5hfm6t7vjcpsnrrej55k38cju9eq5" />
   <source id="3155126767688724548" name="IDiagramContent" hash="5mzji9rq7u4lssudbww820tlpx8rdi3" />
   <source id="6554619383001456740" name="BoxEndpointTarget" hash="41xaf7dser0bpx455bhyo08npfrek7g" />
   <source id="6554619383001705551" name="ConditionalEndpointTarget" hash="-aqsxpqlsj90k24tux1mweo0qhaazo8j" />
   <source id="6554619383001456866" name="PortEndpointTarget" hash="3ftysywgwov33stvwfyfck6z3k2oqcx" />
   <source id="6554619383001456685" name="IEndpointTarget" hash="-6zvpmmeo1b6ewuhbvpcuxbs6xhnf3fb" />
-  <source id="8587703283523590697" name="ConnectionEndpoint" hash="-4vzjvd821lem984uwkpy6lzw7zsmtlh" />
+  <source id="8587703283523590697" name="ConnectionEndpoint" hash="-6h4c873543ofa0it8m97zz0ov5nxwli" />
   <source id="1981294357059563448" name="ChildRolePaletteSource" hash="-3f4qr032qe863kbftcsoumssv2zf4eg" />
   <source id="1981294357061019414" name="FilteringPaletteSource" hash="9e9ngqe2fgfvfyu08y3lphdmqk0sw3z" />
   <source id="1981294357061021217" name="FilteringPaletteSource_FilterQuery" hash="-cefhz4a6jvu44jxrojphio7r6h561t9" />
@@ -129,11 +137,11 @@
   <source id="4254343767714424935" name="InlineCompositeShape" hash="-ekc0f9bb8axc8jfhj6p5cneconrq08r" />
   <source id="7464726264117281947" name="Parameter_Bounds" hash="-6ojzw6b7yz0hjixhn0j01au5j2e0y6o" />
   <source id="7464726264117388668" name="Parameter_Graphics2D" hash="9y1hmpghl0ynbpw9hmfp0xdo72106nd" />
-  <source id="7464726264117247548" name="ShapeDefinition" hash="-ar7xvqsjp2dtb0lbhit2fmyh2o55a01" />
+  <source id="7464726264117247548" name="AWTShapeDefinition" hash="-b2xr2oslxks3s66qo089xs1rmmgku63" />
   <source id="2630243574828768918" name="ShapeNodeExpression" hash="-2umpgny8yd065hlc9g05gbqa40ztm1k" />
   <source id="3454709602156468860" name="ShapeParameterDeclaration" hash="-96is4w9wziv71p21011yuqpir4ud726" />
   <source id="3454709602156593329" name="ShapeParameterReference" hash="-bqwi7233dphghgzahno4pqll9u4tjpj" />
-  <source id="7464726264117677937" name="ShapeReference" hash="d5u8w0em34n6xxv50k3cw8faurgecwn" />
+  <source id="7464726264117677937" name="AWTShapeReference" hash="xewxij9lpk7oqzyt5nve9ap343yaaq" />
   <source id="7464726264117682320" name="StandardShape" hash="-42i5lwvd8z5jww34jzfre97c1foxnri" />
   <source id="7464726264117682084" name="StandardShapes" hash="9abfo2l9425y6788l7u64ibppygwr2j">
     <dep model="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
@@ -164,24 +172,32 @@
   <source id="6720495385591759180" name="Parameter_ValidateConnection_Reasons" hash="8xwqrfln81o658cb94zaff8gpik43b0" />
   <source id="6720495385590278837" name="Parameter_ValidateConnection_ToNode" hash="dcupq1pm56u7pva64hjbcoynejeefcm" />
   <source id="6720495385590278919" name="Parameter_ValidateConnection_ToPort" hash="tlphmpn2w997p3cttvftcb0ft42vv6" />
-  <source id="4254343767716913574" name="CellModel_Compartment" hash="7j64cmmd1iiaa55m5h15fd7k6h8zyd8" />
+  <source id="4254343767716913574" name="CellModel_Separator" hash="9sx012f01fjasqd67as4ysynx915dr9" />
   <source id="1110129820007229393" name="CellModel_Diagram" hash="1r05vgsdcvi6yxs2nbqclvsimg7ycry" />
-  <source id="6237710625713831199" name="CellModel_DiagramConnector" hash="3pnu6q22zzb4piop8iia5j4os9rd9wq" />
+  <source id="6237710625713831199" name="CellModel_Edge" hash="-1934e8codyumi74tz757itl1bugs9bi" />
   <source id="301931493264781535" name="CellModel_DiagramContent" hash="-99kiux780a5q6ca60zib2kn1g329m1d" />
-  <source id="6237710625713195816" name="CellModel_DiagramNode" hash="dfo7gwj3fthrwo9czv39u2kuhupx4wi" />
+  <source id="6237710625713195816" name="CellModel_Box" hash="-81ll4o8ymq595xh23cvdyganf7wbvgr" />
   <source id="500099795019625460" name="CellModel_Shape" hash="dd5f9peh1d49xeraahi8x6f0vo7tie2" />
-  <source id="2435690874923076817" name="Function_CreateNode" hash="equk3eoan1dfuufhs1qwewpq3v6rg2i" />
-  <source id="5490129062797971531" name="Function_GetLabel" hash="ascolftz1exmbzz8mm02788o9vrixlj" />
-  <source id="6237710625716701263" name="Function_GetNode" hash="ca0kmsqe09ajzk7dorw2xjm2o5bz3vp" />
-  <source id="7817667712699096574" name="Function_GetPortName" hash="-8xolhvi6rbcymn1q222t7fiwyt8gs6k" />
-  <source id="5712445629353393305" name="Function_SetConnectionEndpoint" hash="-epdh9lcctnosmfgibwu4gaw5c4ymsab" />
-  <source id="5490129062797973577" name="Function_SetLabel" hash="-8g4irp4xdqyk485g4tgqhrkij6jphcl" />
+  <source id="6237710625716701263" name="Function_GetNode" hash="-8jjhnn5advj5vkqo5bauju3or9xvwld" />
+  <source id="7817667712699096574" name="Function_GetPortName" hash="5fb1fxvhjfy76yov91wgw1zqf3gi5ug" />
+  <source id="5712445629353393305" name="Function_SetConnectionEndpoint" hash="64ceqaegvt6v35lneljauyutp347guo" />
   <source id="5490129062797973100" name="Parameter_Label" hash="a99qxe93xxvneb39ryl9a9thxyyo4dz" />
   <source id="6237710625713964946" name="Parameter_Node" hash="-7bkbgoqk1jmf9qg4nhzto43xsu7m10x" />
   <source id="1933649609528302759" name="Parameter_Port" hash="bhki75d8c7xsohkq4yd3v6up71m7aue" />
   <source id="5712445629353395770" name="Parameter_TargetNode" hash="-bdcmbtosp9n7c1loviicui2fqscidv2" />
   <source id="8587703283519920118" name="ThisNodeExpression" hash="7gpo4xkwo04qqxjkofk3kfpbllqy34e" />
   <source id="6237710625714192596" name="IDiagramCell" hash="-eielumwr9vqxmp4eg36o9p2r3zt3s0b" />
-  <source id="6298417450308841119" name="IConnectionType" hash="5m8050iy2pjvfuodrh97thogpi5lawj" />
+  <source id="6298417450308841119" name="IConnectionType" hash="-8adedvq1et8gbvvyugnqn7df6s6bmph" />
+  <source id="6298417450309634722" name="IDeleteHandler" hash="8liejdmitasqm367ye01o7i02nqygxb" />
+  <source id="6298417450309983185" name="SNodeConnectionType" hash="-79tu0077wo8obrsu6aicznufexpk5xm" />
+  <source id="6298417450310312137" name="SNodeConnectionType_CanCreate" hash="84946ejecl4zv6kuilxpgdnz3rbj8u5" />
+  <source id="6298417450310312154" name="SNodeConnectionType_Create" hash="-831h2hbnwkzu935din52eny9ms7xt0h" />
+  <source id="6298417450310843488" name="SNodeConnectionType_Param_FromNode" hash="49cxm497qdo2v3xiip4go4se06nbztk" />
+  <source id="6298417450310843528" name="SNodeConnectionType_Param_ToNode" hash="-215gcvuyp7eibivxwag81gqdx134bko" />
+  <source id="6298417450310843568" name="SNodeConnectionType_Param_FromPort" hash="73scmj99zv2nojuw92psddkdz2t21qt" />
+  <source id="6298417450310843608" name="SNodeConnectionType_Param_ToPort" hash="-4yo5d0as9hatrjenqdn8po7opz7k26z" />
+  <source id="6298417450311038307" name="IConnectionEndpoint" hash="-3mp82sstw1us9z2ovevf64j8o7p37cl" />
+  <source id="6298417450311459406" name="AWTDrawingShapeDefinition" hash="24puwizgyom5rzpfdtl4fe7idqc2rj6" />
+  <source id="6298417450311459732" name="AbstractShapeDefinition" hash="-xfxi9jleuorpixftnzpvky14rc7lue" />
 </dependencies>
 

@@ -4,7 +4,7 @@ package jetbrains.mps.editor.diagram.behavior;
 
 import jetbrains.mps.lang.core.behavior.BaseConcept_BehaviorDescriptor;
 
-public class ConnectionEndpoint_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor {
+public class ConnectionEndpoint_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IConnectionEndpoint_BehaviorDescriptor {
   public ConnectionEndpoint_BehaviorDescriptor() {
   }
 

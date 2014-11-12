@@ -16,64 +16,68 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
   public Collection<ConceptEditor> getEditors(ConceptDescriptor descriptor) {
     switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0b, descriptor.getConceptFqName())) {
       case 0:
-        return Collections.<ConceptEditor>singletonList(new BoxEndpointTarget_Editor());
+        return Collections.<ConceptEditor>singletonList(new AWTDrawingShapeDefinition_Editor());
       case 1:
-        return Collections.<ConceptEditor>singletonList(new CellModel_Compartment_Editor());
+        return Collections.<ConceptEditor>singletonList(new AWTShapeDefinition_Editor());
       case 2:
-        return Collections.<ConceptEditor>singletonList(new CellModel_Diagram_Editor());
+        return Collections.<ConceptEditor>singletonList(new AWTShapeReference_Editor());
       case 3:
-        return Collections.<ConceptEditor>singletonList(new CellModel_DiagramConnector_Editor());
+        return Collections.<ConceptEditor>singletonList(new BoxEndpointTarget_Editor());
       case 4:
-        return Collections.<ConceptEditor>singletonList(new CellModel_DiagramContent_Editor());
+        return Collections.<ConceptEditor>singletonList(new CellModel_Box_Editor());
       case 5:
-        return Collections.<ConceptEditor>singletonList(new CellModel_DiagramNode_Editor());
+        return Collections.<ConceptEditor>singletonList(new CellModel_Diagram_Editor());
       case 6:
-        return Collections.<ConceptEditor>singletonList(new CellModel_Shape_Editor());
+        return Collections.<ConceptEditor>singletonList(new CellModel_DiagramContent_Editor());
       case 7:
-        return Collections.<ConceptEditor>singletonList(new ChildRolePaletteSource_Editor());
+        return Collections.<ConceptEditor>singletonList(new CellModel_Edge_Editor());
       case 8:
-        return Collections.<ConceptEditor>singletonList(new ConditionalEndpointTarget_Editor());
+        return Collections.<ConceptEditor>singletonList(new CellModel_Separator_Editor());
       case 9:
-        return Collections.<ConceptEditor>singletonList(new ConditionalShape_Editor());
+        return Collections.<ConceptEditor>singletonList(new CellModel_Shape_Editor());
       case 10:
-        return Collections.<ConceptEditor>singletonList(new ConnectionEndpoint_Editor());
+        return Collections.<ConceptEditor>singletonList(new ChildRolePaletteSource_Editor());
       case 11:
-        return Collections.<ConceptEditor>singletonList(new Content_Childs_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConditionalEndpointTarget_Editor());
       case 12:
-        return Collections.<ConceptEditor>singletonList(new Content_GenericBoxQuery_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConditionalShape_Editor());
       case 13:
-        return Collections.<ConceptEditor>singletonList(new Content_GenericEdgeQuery_Editor());
+        return Collections.<ConceptEditor>singletonList(new ConnectionEndpoint_Editor());
       case 14:
-        return Collections.<ConceptEditor>singletonList(new Content_GenericElementQuery_OuterNode_Editor());
+        return Collections.<ConceptEditor>singletonList(new Content_Childs_Editor());
       case 15:
-        return Collections.<ConceptEditor>singletonList(new Content_GenericElementQuery_ParameterObject_Editor());
+        return Collections.<ConceptEditor>singletonList(new Content_GenericBoxQuery_Editor());
       case 16:
-        return Collections.<ConceptEditor>singletonList(new FilteringPaletteSource_Editor());
+        return Collections.<ConceptEditor>singletonList(new Content_GenericEdgeQuery_Editor());
       case 17:
-        return Collections.<ConceptEditor>singletonList(new InlineCompositeShape_Editor());
+        return Collections.<ConceptEditor>singletonList(new Content_GenericElementQuery_OuterNode_Editor());
       case 18:
-        return Collections.<ConceptEditor>singletonList(new LineStyle_Editor());
+        return Collections.<ConceptEditor>singletonList(new Content_GenericElementQuery_ParameterObject_Editor());
       case 19:
-        return Collections.<ConceptEditor>singletonList(new LineWidth_Editor());
+        return Collections.<ConceptEditor>singletonList(new FilteringPaletteSource_Editor());
       case 20:
-        return Collections.<ConceptEditor>singletonList(new Port_Editor());
+        return Collections.<ConceptEditor>singletonList(new InlineCompositeShape_Editor());
       case 21:
-        return Collections.<ConceptEditor>singletonList(new PortEndpointTarget_Editor());
+        return Collections.<ConceptEditor>singletonList(new LineStyle_Editor());
       case 22:
-        return Collections.<ConceptEditor>singletonList(new PortObject_Editor());
+        return Collections.<ConceptEditor>singletonList(new LineWidth_Editor());
       case 23:
-        return Collections.<ConceptEditor>singletonList(new PortQuery_Editor());
+        return Collections.<ConceptEditor>singletonList(new Port_Editor());
       case 24:
-        return Collections.<ConceptEditor>singletonList(new ShapeDefinition_Editor());
+        return Collections.<ConceptEditor>singletonList(new PortEndpointTarget_Editor());
       case 25:
-        return Collections.<ConceptEditor>singletonList(new ShapeParameterDeclaration_Editor());
+        return Collections.<ConceptEditor>singletonList(new PortObject_Editor());
       case 26:
-        return Collections.<ConceptEditor>singletonList(new ShapeParameterReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new PortQuery_Editor());
       case 27:
-        return Collections.<ConceptEditor>singletonList(new ShapeReference_Editor());
+        return Collections.<ConceptEditor>singletonList(new SNodeConnectionType_Editor());
       case 28:
-        return Collections.<ConceptEditor>singletonList(new StandardShape_Editor());
+        return Collections.<ConceptEditor>singletonList(new ShapeParameterDeclaration_Editor());
       case 29:
+        return Collections.<ConceptEditor>singletonList(new ShapeParameterReference_Editor());
+      case 30:
+        return Collections.<ConceptEditor>singletonList(new StandardShape_Editor());
+      case 31:
         return Collections.<ConceptEditor>singletonList(new ThisNodeExpression_Editor());
       default:
     }
@@ -86,5 +90,5 @@ public class EditorAspectDescriptorImpl implements EditorAspectDescriptor {
 
 
 
-  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"jetbrains.mps.editor.diagram.structure.BoxEndpointTarget", "jetbrains.mps.editor.diagram.structure.CellModel_Compartment", "jetbrains.mps.editor.diagram.structure.CellModel_Diagram", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramConnector", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramContent", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramNode", "jetbrains.mps.editor.diagram.structure.CellModel_Shape", "jetbrains.mps.editor.diagram.structure.ChildRolePaletteSource", "jetbrains.mps.editor.diagram.structure.ConditionalEndpointTarget", "jetbrains.mps.editor.diagram.structure.ConditionalShape", "jetbrains.mps.editor.diagram.structure.ConnectionEndpoint", "jetbrains.mps.editor.diagram.structure.Content_Childs", "jetbrains.mps.editor.diagram.structure.Content_GenericBoxQuery", "jetbrains.mps.editor.diagram.structure.Content_GenericEdgeQuery", "jetbrains.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode", "jetbrains.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject", "jetbrains.mps.editor.diagram.structure.FilteringPaletteSource", "jetbrains.mps.editor.diagram.structure.InlineCompositeShape", "jetbrains.mps.editor.diagram.structure.LineStyle", "jetbrains.mps.editor.diagram.structure.LineWidth", "jetbrains.mps.editor.diagram.structure.Port", "jetbrains.mps.editor.diagram.structure.PortEndpointTarget", "jetbrains.mps.editor.diagram.structure.PortObject", "jetbrains.mps.editor.diagram.structure.PortQuery", "jetbrains.mps.editor.diagram.structure.ShapeDefinition", "jetbrains.mps.editor.diagram.structure.ShapeParameterDeclaration", "jetbrains.mps.editor.diagram.structure.ShapeParameterReference", "jetbrains.mps.editor.diagram.structure.ShapeReference", "jetbrains.mps.editor.diagram.structure.StandardShape", "jetbrains.mps.editor.diagram.structure.ThisNodeExpression"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0b = new String[]{"jetbrains.mps.editor.diagram.structure.AWTDrawingShapeDefinition", "jetbrains.mps.editor.diagram.structure.AWTShapeDefinition", "jetbrains.mps.editor.diagram.structure.AWTShapeReference", "jetbrains.mps.editor.diagram.structure.BoxEndpointTarget", "jetbrains.mps.editor.diagram.structure.CellModel_Box", "jetbrains.mps.editor.diagram.structure.CellModel_Diagram", "jetbrains.mps.editor.diagram.structure.CellModel_DiagramContent", "jetbrains.mps.editor.diagram.structure.CellModel_Edge", "jetbrains.mps.editor.diagram.structure.CellModel_Separator", "jetbrains.mps.editor.diagram.structure.CellModel_Shape", "jetbrains.mps.editor.diagram.structure.ChildRolePaletteSource", "jetbrains.mps.editor.diagram.structure.ConditionalEndpointTarget", "jetbrains.mps.editor.diagram.structure.ConditionalShape", "jetbrains.mps.editor.diagram.structure.ConnectionEndpoint", "jetbrains.mps.editor.diagram.structure.Content_Childs", "jetbrains.mps.editor.diagram.structure.Content_GenericBoxQuery", "jetbrains.mps.editor.diagram.structure.Content_GenericEdgeQuery", "jetbrains.mps.editor.diagram.structure.Content_GenericElementQuery_OuterNode", "jetbrains.mps.editor.diagram.structure.Content_GenericElementQuery_ParameterObject", "jetbrains.mps.editor.diagram.structure.FilteringPaletteSource", "jetbrains.mps.editor.diagram.structure.InlineCompositeShape", "jetbrains.mps.editor.diagram.structure.LineStyle", "jetbrains.mps.editor.diagram.structure.LineWidth", "jetbrains.mps.editor.diagram.structure.Port", "jetbrains.mps.editor.diagram.structure.PortEndpointTarget", "jetbrains.mps.editor.diagram.structure.PortObject", "jetbrains.mps.editor.diagram.structure.PortQuery", "jetbrains.mps.editor.diagram.structure.SNodeConnectionType", "jetbrains.mps.editor.diagram.structure.ShapeParameterDeclaration", "jetbrains.mps.editor.diagram.structure.ShapeParameterReference", "jetbrains.mps.editor.diagram.structure.StandardShape", "jetbrains.mps.editor.diagram.structure.ThisNodeExpression"};
 }

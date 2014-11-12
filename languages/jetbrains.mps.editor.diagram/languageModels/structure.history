@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="-1" />
+    </dependencies>
+    <rename id="uh80.6237710625713195816" type="CONCEPT" from="CellModel_DiagramNode" to="CellModel_Box" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="0" />
+    </dependencies>
+    <rename id="uh80.6237710625713831199" type="CONCEPT" from="CellModel_DiagramConnector" to="CellModel_Edge" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="1" />
+    </dependencies>
+    <rename id="uh80.4254343767716913574" type="CONCEPT" from="CellModel_Compartment" to="CellModel_Separator" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="2" />
+    </dependencies>
+    <rename id="uh80.3462102746004176270" type="CONCEPT" from="DeleteHandler" to="BLDeleteHandler" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="3" />
+    </dependencies>
+    <rename id="uh80.6298417450309983185" type="CONCEPT" from="ConnectionType" to="SNodeConnectionType" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="4" />
+    </dependencies>
+    <rename id="uh80.6298417450310312154" type="CONCEPT" from="ConnectionType_Create" to="SNodeConnectionType_Create" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="5" />
+    </dependencies>
+    <rename id="uh80.6298417450310312137" type="CONCEPT" from="ConnectionType_CanCreate" to="SNodeConnectionType_CanCreate" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="6" />
+    </dependencies>
+    <rename id="uh80.7464726264117247548" type="CONCEPT" from="ShapeDefinition" to="AWTShapeDefinition" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="7" />
+    </dependencies>
+    <rename id="uh80.7464726264117677937" type="CONCEPT" from="ShapeReference" to="AWTShapeReference" />
+  </StructureModification>
+</history>
+

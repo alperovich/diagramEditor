@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
-  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="163" endPosition="0" unitName="jetbrains.mps.editor.diagram.structure.StructureAspectDescriptor" />
+  <unitInfo fileName="StructureAspectDescriptor.java" startLine="10" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.editor.diagram.structure.StructureAspectDescriptor" />
   <root nodeRef="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)/6987730699889504308">
     <nodeInfo nodeId="6987730699889504308" fileName="LineStyleValues.java" startLine="13" startPosition="0" endLine="14" endPosition="0" conceptFqName="jetbrains.mps.baseLanguage.structure.FieldDeclaration" propertyString="myName" />
     <nodeInfo nodeId="6987730699889504308" fileName="LineStyleValues.java" startLine="15" startPosition="27" endLine="16" endPosition="23" conceptFqName="jetbrains.mps.baseLanguage.structure.ReturnStatement" />

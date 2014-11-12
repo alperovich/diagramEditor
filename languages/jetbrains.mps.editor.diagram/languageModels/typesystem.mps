@@ -6,12 +6,12 @@
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
   <import index="msyo" modelUID="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.util(MPS.Core/jetbrains.mps.util@java_stub)" version="-1" />
   <import index="tpcb" modelUID="r:00000000-0000-4000-0000-011c89590297(jetbrains.mps.lang.editor.behavior)" version="-1" />
+  <import index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="8" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpd4" modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="7" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="-1" implicit="yes" />
   <import index="tp3r" modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" implicit="yes" />
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8963411245958620115" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_Content_GenericElementQuery" />
@@ -395,11 +395,12 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="2573399587961161198" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="node" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="uh80.7464726264117677937" resolveInfo="ShapeReference" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="uh80.7464726264117677937" resolveInfo="AWTShapeReference" />
     </node>
   </root>
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="2573399587948981520" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="typeof_CellModel_DiagramConnector" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="" />
     <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="2573399587948981521" nodeInfo="sn">
       <node role="statement" roleId="tpee.1068581517665" type="tpd4.CreateLessThanInequationStatement" typeId="tpd4.1174663118805" id="2573399587948984113" nodeInfo="nn">
         <node role="rightExpression" roleId="tpd4.1174660783414" type="tpd4.NormalTypeClause" typeId="tpd4.1185788614172" id="2573399587948984140" nodeInfo="ng">
@@ -423,7 +424,7 @@
     </node>
     <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="2573399587948981523" nodeInfo="ig">
       <property name="name" nameId="tpck.1169194664001" value="node" />
-      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="uh80.6237710625713831199" resolveInfo="CellModel_DiagramConnector" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="uh80.6237710625713831199" resolveInfo="CellModel_Edge" />
     </node>
   </root>
   <root type="tpd4.InferenceRule" typeId="tpd4.1174643105530" id="8587703283520410453" nodeInfo="ng">

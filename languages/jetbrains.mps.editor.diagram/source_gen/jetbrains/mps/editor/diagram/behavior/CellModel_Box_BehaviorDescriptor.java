@@ -7,8 +7,8 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class CellModel_DiagramNode_BehaviorDescriptor extends EditorCellModel_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IDiagramCell_BehaviorDescriptor {
-  public CellModel_DiagramNode_BehaviorDescriptor() {
+public class CellModel_Box_BehaviorDescriptor extends EditorCellModel_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor, IDiagramCell_BehaviorDescriptor {
+  public CellModel_Box_BehaviorDescriptor() {
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
@@ -17,6 +17,6 @@ public class CellModel_DiagramNode_BehaviorDescriptor extends EditorCellModel_Be
 
   @Override
   public String getConceptFqName() {
-    return "jetbrains.mps.editor.diagram.structure.CellModel_DiagramNode";
+    return "jetbrains.mps.editor.diagram.structure.CellModel_Box";
   }
 }

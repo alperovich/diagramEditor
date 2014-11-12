@@ -15,16 +15,16 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.lang.editor.editor.Styles_StyleSheet;
 
-public class CellModel_Compartment_Editor extends DefaultNodeEditor {
+public class CellModel_Separator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createComponent_fku89l_a(editorContext, node);
+    return this.createComponent_meifkv_a(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_fku89l_a(editorContext, node);
+    return this.createCollection_meifkv_a(editorContext, node);
   }
 
-  private EditorCell createComponent_fku89l_a(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_meifkv_a(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.core.editor.alias");
     EditorCell bigCell = BigCellUtil.findBigCell(editorCell, node);
     if (bigCell != null) {
@@ -36,28 +36,28 @@ public class CellModel_Compartment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_fku89l_a(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_meifkv_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_fku89l_a");
+    editorCell.setCellId("Collection_meifkv_a");
     editorCell.setBig(true);
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(this.createComponent_fku89l_a0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_fku89l_b0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_fku89l_c0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_fku89l_d0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_meifkv_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_meifkv_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_meifkv_c0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_meifkv_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createComponent_fku89l_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_meifkv_a0(EditorContext editorContext, SNode node) {
     EditorCell editorCell = editorContext.getCellFactory().createEditorComponentCell(node, "jetbrains.mps.lang.editor.editor._CellModel_Common");
     return editorCell;
   }
 
-  private EditorCell createConstant_fku89l_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_meifkv_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_fku89l_b0");
+    editorCell.setCellId("Constant_meifkv_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
     editorCell.getStyle().putAll(style);
@@ -65,9 +65,9 @@ public class CellModel_Compartment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_fku89l_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_meifkv_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compartment Cell:");
-    editorCell.setCellId("Constant_fku89l_c0");
+    editorCell.setCellId("Constant_meifkv_c0");
     Style style = new StyleImpl();
     Styles_StyleSheet.apply_header(style, editorCell);
     editorCell.getStyle().putAll(style);
@@ -75,9 +75,9 @@ public class CellModel_Compartment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_fku89l_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_meifkv_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_fku89l_d0");
+    editorCell.setCellId("Collection_meifkv_d0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);

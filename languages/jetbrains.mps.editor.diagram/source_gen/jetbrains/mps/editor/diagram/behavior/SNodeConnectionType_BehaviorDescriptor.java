@@ -7,8 +7,8 @@ import jetbrains.mps.lang.core.behavior.INamedConcept_BehaviorDescriptor;
 import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 
-public class ShapeDefinition_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements INamedConcept_BehaviorDescriptor {
-  public ShapeDefinition_BehaviorDescriptor() {
+public class SNodeConnectionType_BehaviorDescriptor extends BaseConcept_BehaviorDescriptor implements IConnectionType_BehaviorDescriptor, INamedConcept_BehaviorDescriptor {
+  public SNodeConnectionType_BehaviorDescriptor() {
   }
 
   public String virtual_getFqName_1213877404258(SNode thisNode) {
@@ -17,6 +17,6 @@ public class ShapeDefinition_BehaviorDescriptor extends BaseConcept_BehaviorDesc
 
   @Override
   public String getConceptFqName() {
-    return "jetbrains.mps.editor.diagram.structure.ShapeDefinition";
+    return "jetbrains.mps.editor.diagram.structure.SNodeConnectionType";
   }
 }

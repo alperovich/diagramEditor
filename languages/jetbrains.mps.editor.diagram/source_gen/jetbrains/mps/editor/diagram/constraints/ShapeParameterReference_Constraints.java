@@ -44,7 +44,7 @@ public class ShapeParameterReference_Constraints extends BaseConstraintsDescript
 
           @Override
           public Scope createScope(final IOperationContext operationContext, final ReferenceConstraintsContext _context) {
-            return new NamedElementsScope(SLinkOperations.getTargets(SNodeOperations.getAncestor(_context.getContextNode(), "jetbrains.mps.editor.diagram.structure.ShapeDefinition", true, false), "parameters", true));
+            return new NamedElementsScope(SLinkOperations.getTargets(SNodeOperations.getAncestor(_context.getContextNode(), "jetbrains.mps.editor.diagram.structure.AbstractShapeDefinition", true, false), "parameters", true));
           }
         };
       }

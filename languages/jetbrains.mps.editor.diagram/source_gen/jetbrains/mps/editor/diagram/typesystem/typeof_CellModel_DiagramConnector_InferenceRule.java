@@ -25,7 +25,7 @@ public class typeof_CellModel_DiagramConnector_InferenceRule extends AbstractInf
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.editor.diagram.structure.CellModel_DiagramConnector";
+    return "jetbrains.mps.editor.diagram.structure.CellModel_Edge";
   }
 
   public IsApplicableStatus isApplicableAndPattern(SNode argument) {

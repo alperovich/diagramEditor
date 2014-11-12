@@ -6,7 +6,7 @@ import org.jetbrains.mps.openapi.model.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
-public class ShapeDefinition_Behavior {
+public class AWTShapeDefinition_Behavior {
   public static void init(SNode thisNode) {
   }
 
@@ -15,6 +15,6 @@ public class ShapeDefinition_Behavior {
   }
 
   public static String call_getGenerateFqClassName_5642467428246720698(SNode thisNode) {
-    return SNodeOperations.getModel(thisNode).getModelName() + "." + ShapeDefinition_Behavior.call_getGeneratedClassName_7464726264118340734(thisNode);
+    return SNodeOperations.getModel(thisNode).getModelName() + "." + AWTShapeDefinition_Behavior.call_getGeneratedClassName_7464726264118340734(thisNode);
   }
 }
