@@ -7,7 +7,7 @@
   <import index="tpc5" modelUID="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" version="-1" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
-  <import index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="8" />
+  <import index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="9" />
   <import index="4v28" modelUID="r:74a073ef-f95e-4059-a58a-ea3526d591c3(jetbrains.mps.editor.diagram.behavior)" version="-1" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
@@ -808,7 +808,7 @@
               <property name="text" nameId="tpc2.1073389577007" value="positionX" />
             </node>
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6554619383005759897" nodeInfo="ng">
-              <property name="noTargetText" nameId="tpc2.1139852716018" value="auto" />
+              <property name="noTargetText" nameId="tpc2.1139852716018" value="left" />
               <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="uh80.6554619383005758750" />
               <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="6554619383005759898" nodeInfo="nn">
                 <property name="flag" nameId="tpc2.1186414551515" value="true" />
@@ -824,7 +824,7 @@
               <property name="text" nameId="tpc2.1073389577007" value="positionY" />
             </node>
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="6554619383005759903" nodeInfo="ng">
-              <property name="noTargetText" nameId="tpc2.1139852716018" value="auto" />
+              <property name="noTargetText" nameId="tpc2.1139852716018" value="center" />
               <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="uh80.6554619383005758751" />
               <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="6554619383005759904" nodeInfo="nn">
                 <property name="flag" nameId="tpc2.1186414551515" value="true" />
@@ -912,7 +912,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7464726264118061742" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape.awt" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="uh80.7464726264117247548" resolveInfo="AWTShapeDefinition" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="7464726264118061800" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7464726264118061802" nodeInfo="nn">
@@ -1015,7 +1015,7 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7464726264117677965" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape.awt" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="uh80.7464726264117677937" resolveInfo="AWTShapeReference" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="3454709602159778552" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefCell" typeId="tpc2.1088013125922" id="7464726264117682068" nodeInfo="ng">
@@ -1920,11 +1920,11 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6298417450311462350" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape.awt" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="uh80.6298417450311459406" resolveInfo="AWTDrawingShapeDefinition" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6298417450311462589" nodeInfo="nn">
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="6298417450311462590" nodeInfo="nn">
-        <property name="text" nameId="tpc2.1073389577007" value="awt shape" />
+        <property name="text" nameId="tpc2.1073389577007" value="awt drawing shape" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="6298417450311462591" nodeInfo="ng">
         <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="tpck.1169194664001" resolveInfo="name" />

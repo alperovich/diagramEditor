@@ -54,5 +54,11 @@
     </dependencies>
     <rename id="uh80.7464726264117677937" type="CONCEPT" from="ShapeReference" to="AWTShapeReference" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="uh80" modelUID="r:5eeca5b9-3859-4cfd-b582-d996ccb21c62(jetbrains.mps.editor.diagram.structure)" version="8" />
+    </dependencies>
+    <rename id="uh80.6720495385591759180" type="CONCEPT" from="Parameter_ValidateConnection_Reasons" to="SNodeConnectionType_Param_Reasons" />
+  </StructureModification>
 </history>
 

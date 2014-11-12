@@ -25,6 +25,9 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6298417450309852031" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Component" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5356797705321422956" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6298417450309852033" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Connection" />
